@@ -1,0 +1,144 @@
+table, td {
+  border-collapse: collapse;
+  border-spacing: 0;
+  vertical-align: baseline;
+  margin: 0;
+}
+section.layout .content {
+  width: 720px;
+  min-height: 100%;
+}
+section.layout .xpath-evaluator {
+  position: relative;
+  z-index: 2;
+  background: #fff;
+  border: 1px solid #b8b8b8;
+  border-radius: 5px 5px 0px 0px;
+  font-size: 14px;
+  line-height: 17px;
+  height: 643px;
+  overflow: hidden;
+}
+section.layout .xpath-evaluator .gutter,
+section.layout .xpath-evaluator pre {
+  font-family: Consolas, "Liberation Mono", Menlo, Courier, monospace !important;
+  font-size: 14px;
+}
+section.layout .xpath-evaluator .structure {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  overflow: auto;
+  color: #111;
+}
+section.layout .xpath-evaluator .structure table {
+  height: 643px;
+}
+section.layout .xpath-evaluator .structure .gutter {
+  background: #fbfbfb;
+  color: #c3c3c3;
+  text-align: right;
+  border-right: 1px solid #d2d2d2;
+  min-width: 18px;
+  padding: 5px 0px;
+}
+section.layout .xpath-evaluator .structure .gutter span {
+  position: relative;
+  display: block;
+  height: 17px;
+  padding-top: 1px;
+  padding-left: 13px;
+  padding-right: 7px;
+}
+section.layout .xpath-evaluator .structure .gutter span.ml {
+  background: #f1f1f1;
+  color: #9f9f9f;
+}
+section.layout .xpath-evaluator .structure .gutter span.ml:after {
+  content: '';
+  position: absolute;
+  top: 0px;
+  bottom: -1px;
+  right: -2px;
+  border-right: 3px solid #cc6;
+}
+section.layout .xpath-evaluator .structure .line-data {
+  padding: 5px 3px 5px 2px;
+}
+section.layout .xpath-evaluator .structure .line-data .line.ml .ml,
+section.layout .xpath-evaluator .structure .line-data .line .mal {
+  -webkit-animation: 300ms wink;
+  -moz-animation: 300ms wink;
+  animation: 300ms wink;
+}
+section.layout .xpath-evaluator .structure .line-data .line span {
+  display: inline-block;
+  height: 17px;
+}
+section.layout .xpath-evaluator .structure .line-data .line .dc {
+  color: #666;
+}
+section.layout .xpath-evaluator .structure .line-data .line .p {
+  color: #30f;
+}
+section.layout .xpath-evaluator .structure .line-data .line .na {
+  color: #f00;
+}
+section.layout .xpath-evaluator .structure .line-data .line .s1 {
+  color: #d70;
+}
+section.layout .xpath-evaluator .structure .line-data .line .s2 {
+  color: #07c;
+}
+section.layout .xpath-evaluator .structure .line-data .line .s {
+  color: #30f;
+}
+section.layout .xpath-evaluator .structure .line-data .line .c {
+  color: #0a0;
+}
+section.layout .xpath-evaluator .structure .line-data .line .nt {
+  color: #a00;
+}
+section.layout .xpath-evaluator .structure .line-data .line .mal,
+section.layout .xpath-evaluator .structure .line-data .line .ml {
+  background: #ffff99;
+  border-radius: 0px 2px 2px 0px;
+}
+section.layout .xpath-evaluator .structure .line-data .line .mal {
+  border-radius: 2px;
+}
+@-webkit-keyframes wink {
+  0% {
+    padding-left: 0px;
+  }
+  50% {
+    padding-left: 5px;
+  }
+  100% {
+    padding-left: 0px;
+  }
+}
+@-moz-keyframes wink {
+  0% {
+    padding-left: 0px;
+  }
+  50% {
+    padding-left: 5px;
+  }
+  100% {
+    padding-left: 0px;
+  }
+}
+@keyframes wink {
+  0% {
+    padding-left: 0px;
+  }
+  50% {
+    padding-left: 5px;
+  }
+  100% {
+    padding-left: 0px;
+  }
+}
